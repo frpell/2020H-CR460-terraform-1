@@ -1,8 +1,8 @@
 provider "google" {
-  project = "zonedetest"
+  project = "monprojet-267022"
   credentials = "account.json"
   region  = "us-central1"
-  zone    = "us-central1-c"
+  zone    = "us-central1-B"
 }
 
 resource "google_compute_instance" "vm_instance" {
